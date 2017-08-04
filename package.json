@@ -1,0 +1,25 @@
+{
+  "name": "solemnscolding",
+  "version": "0.1",
+  "description": "Discord bot that provides a means for pseudo-anonymous communication with moderators.",
+  "main": "Bot.js",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "jsonfile": "^2.4.0",
+	"node-schedule": "^1.2.1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/xommified/SolemnScolding.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/xommified/SolemnScolding/issues"
+  },
+  "homepage": "https://github.com/xommified/SolemnScolding#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xomm",
+  "license": "ISC"
+}
