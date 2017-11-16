@@ -123,7 +123,7 @@ bot.on("message", message => {
 				
 				//Send the message to the inbox
 				var mod_embed = new Discord.RichEmbed()	
-				mod_embed.setAuthor("Message #" + casenum + " User: " + message.author.username)
+				mod_embed.setAuthor("Message #" + casenum + " User: " + message.author.username + "#" + message.author.discriminator)
 				mod_embed.setDescription(message.content)
 				if(message.attachments != null) {
 					for (a of message.attachments.values()) {
