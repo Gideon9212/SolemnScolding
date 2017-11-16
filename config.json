@@ -10,5 +10,6 @@
 	"channelmap": {},
 	"redditprefix": "",
 	"redditinf": "",
-	"token": ""
+	"token": "",
+	"statusMsg": ""
 }
