@@ -56,7 +56,7 @@ function write_config () {
 
 bot.on("ready", () => {
 	console.log("Ready and listening.");
-	bot.user.setGame("PM for anon modmail")
+	bot.user.setGame(config.statusMsg)
 });
 
 bot.on("voiceStateUpdate", (oldMember, newMember) => {
